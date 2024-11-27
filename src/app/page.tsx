@@ -11,6 +11,7 @@ import { Footer } from "@/components/Footer";
 export default function Home() {
   return (
     <>
+    <div className="-space-y-1">
       <Banner />
       <Navbar />
       <Hero />
@@ -20,6 +21,7 @@ export default function Home() {
       <FAQs />
       <CallToAction />
       <Footer />
+    </div>
     </>
   );
 }
